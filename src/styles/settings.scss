@@ -1,0 +1,26 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+.letter-spacing-mid {
+    letter-spacing: .4rem;
+}
+
+.fill-width {
+    width: 100%;
+}
+
+.v-text-field .v-field__overlay, .v-field__outline {
+    display: none;
+}
+
+.v-list-item__prepend .v-list-item__spacer {
+    display: none;
+}
